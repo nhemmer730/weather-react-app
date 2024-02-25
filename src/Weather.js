@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import WeatherIcons from "./WeatherIcons";
-import { WeatherSvg } from "weather-icons-animated";
 
 export default function SearchEngine() {
   let [city, setCity] = useState("");
